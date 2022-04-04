@@ -71,6 +71,6 @@ Using anaconda,
 
 `python3 -m pip install pystan`
 
-`conda install scipy pandas matplotlib`
+`conda install scipy pandas matplotlib statsmodels`
 
 `python3 -m pip install pickle5`
