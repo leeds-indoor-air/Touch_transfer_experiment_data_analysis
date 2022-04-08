@@ -44,7 +44,7 @@ Usage:
 
 to sample from 
 
-<img src="https://render.githubusercontent.com/render/math?math=p(\theta \,|\, \mathbf{y}, \beta_{k}) = p(\mathbf{y}\,|\,\theta)^{\beta_{k}}p(\theta) ">, where <img src="https://render.githubusercontent.com/render/math?math=\beta_{k} = \left(\frac{k-1}{K}\right)^{\frac{1}{\alpha}}">.
+<img src="https://render.githubusercontent.com/render/math?math=p(\theta \,|\, \mathbf{y}, \beta_{k}) \propto p(\mathbf{y}\,|\,\theta)^{\beta_{k}}p(\theta) ">, where <img src="https://render.githubusercontent.com/render/math?math=\beta_{k} = \left(\frac{k-1}{K}\right)^{\frac{1}{\alpha}}">.
 
 **To sample from posterior, run with** <img src="https://render.githubusercontent.com/render/math?math=\beta_k = 1">, i.e., <img src="https://render.githubusercontent.com/render/math?math=K"> and <img src="https://render.githubusercontent.com/render/math?math=\alpha"> arbitrary, and k = K + 1. `chain_no` is an additional identifier appended to the output filen name and `log_file` is the path to a log file.
 
