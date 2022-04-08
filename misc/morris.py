@@ -127,6 +127,6 @@ for n, (i,j) in zip(range(9), plot_indices):
 ax[0, 0].set_xticks([1, 2, 3])
 ax[0, 0].set_xticklabels(['1', '10', '20'])
 ax[2, 1].set_xlabel('Time post-inoculation (hrs)')
-ax[1, 0].set_ylabel(r'Viral concentration (PFU cm$^2$)')
+ax[1, 0].set_ylabel(r'Viral concentration (PFU cm$^{-2}$)')
 fig.tight_layout()
 fig.savefig('QMRA')
